@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large"
+    tools:context="edu.br.devmedia.loja_virtual.LoginActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/borda_1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large"
+        tools:context="edu.br.devmedia.loja_virtual.LoginActivity" >
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:text="@string/lbl_login" />
+
+        <EditText
+            android:id="@+id/edt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_login"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/txt_senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edt_login"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:text="@string/lbl_senha" />
+
+        <EditText
+            android:id="@+id/edt_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_logar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edt_senha"
+            android:text="@string/lbl_logar" />
+        
+  	    
+  	    <com.facebook.login.widget.LoginButton
+		    android:id="@+id/btn_fblogin"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="30dp"
+		    android:layout_marginBottom="30dp" />  
+
+			    
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Loja Virtual Devmedia</string>
+    <string name="versao">Versão</string>
+    <!-- Globais -->
+    <string name="lbl_listar">Listar</string>
+    <string name="lbl_pesquisar">Pesquisar</string>
+    <string name="lbl_img">Tumbnail</string>
+    <!--  String Login -->
+    <string name="lbl_login">Login:</string>
+    <string name="lbl_senha">Senha:</string>
+    <string name="lbl_logar">Logar</string>
+    <string name="lbl_sair">Sair</string>
+    <string name="lbl_sobre">Sobre</string>
+    <string name="cliente_paypal">Cliente PayPal</string>
+    <string name="lbl_checkout">Finalizar compras</string>
+    <string name="lbl_carrinho">Add ao carrinho</string>
+    <!-- Mensagens -->
+    <string name="msg_login_obg">Login Obrigatório!</string>
+    <string name="msg_senha_obg">Senha Obrigatória!</string>
+    <string name="title_activity_dash_board_list">DashBoardListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msg_login_invalido">Usuário/Senha inválidos!</string>
+    <string name="msg_login_sucesso">Login efetuado com sucesso</string>
+    <string name="msg_sobre">Copyright 2013 - Devmedia\n" + "Todos os direitos reservados!</string>
+    <string name="facebook_app_id">1751104001788813</string>
+    <string-array name="array_opcoes_menu">
+        <item>Home</item>
+        <item>Pesquisar</item>
+        <item>Perfil</item>
+        <item>Produtos</item>
+        <item>Últimas Compras</item>
+        <item>Sair</item>
+    </string-array>
+    <string-array name="nav_drawer_icones">
+        <item>@drawable/home</item>
+        <item>@drawable/search</item>
+        <item>@drawable/perfil</item>
+        <item>@drawable/product</item>
+        <item>@drawable/cash_receiving</item>
+        <item>@drawable/logout</item>
+    </string-array>
+</resources>
